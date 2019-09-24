@@ -1,5 +1,7 @@
 package com.bf.training;
 
+import javafx.scene.control.SplitPane.Divider;
+
 public class Calculator {
 
 	public int add(int x, int y){
@@ -12,5 +14,9 @@ public class Calculator {
 	
 	public int sub(int x, int y){
 		return x - y;
+	}
+	
+	public int div(int x, int y){
+		return x / y; 
 	}
 }
