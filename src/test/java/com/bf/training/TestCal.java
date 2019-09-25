@@ -29,13 +29,4 @@ public class TestCal {
 		assertEquals(0, result);
 	}
 	
-	@Test
-	public void testDiv(){
-		Calculator calc = new Calculator();
-		int result = 0;
-		try { result = calc.div(5, 0);}
-		catch (ArithmeticException e) {
-			assertEquals(1, result);
-		}
-	}
 }
